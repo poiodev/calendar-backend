@@ -1,0 +1,42 @@
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+
+# Archivos de entorno y configuración sensible
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs y archivos temporales
+logs/
+*.log
+npm-debug.log*
+debug.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Cachés y archivos generados
+.cache/
+dist/
+build/
+tmp/
+temp/
+coverage/
+.nyc_output/
+out/
+
+# Configuración de editores y herramientas
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
